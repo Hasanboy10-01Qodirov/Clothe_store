@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* height: 300vh; */
+    width: 100%;
+    position: absolute;
+    font-family: "Arial", Helvetica, sans-serif;
+    background-color: #f1f1f1;
+}
+header{
+    text-align: center;
+    background-color: #202d46;
+    color: #fff;
+    padding: 18px;
+}
+h1, header p{
+    margin-bottom: 15px;
+}
+header p{
+    margin-bottom: 10px;
+}
+nav{
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    background-color: #213b55;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 13px;
+}
+.features{
+    justify-content: center;
+    display: inline-block;
+    width: 400px;
+    color: #fff;
+    height: 355px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #3498db;
+    margin: 30px 10px;
+    padding: 0 10px;
+}
+.feature-1, .feature-4{
+    margin-left: 21px;
+}
+.features h3{
+    margin: 35px 0 15px;
+}
+.features p{
+    margin: 5px 0 20px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-weight: 550;
+}
+.form-group{
+    margin-bottom: 20px;
+    margin: 10px;
+}
+input, button, textarea{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #7e7e7e;
+    border-radius:4px;
+}
+input, textarea{
+    width: 80%;
+}
+textarea{
+    height: 70px;
+}
+label{
+    font-weight: bolder;
+    margin-bottom: 8px;
+    display: block;
+}
+button{
+    border-radius: 6px;
+    padding: 15px;
+    width: 115px;
+    cursor: pointer;
+    color: ghostwhite;
+    background-color: #0099ff;
+    border: none;
+}
+button:hover{
+    background-color: #0080cf;
+    cursor: pointer;
+}
